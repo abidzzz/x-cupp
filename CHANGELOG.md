@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 4.0.0
+- Rename to x-cupp (eXtended-Common User Password Profiler)
+- Remove functions to make it generate only based on interactive mode
+- Change ascii
+- Refactored Cupp to remove redundant code and implement a more efficient solution by reducing complexity
+- Add various other password patterns to combination generated
+- Added support for the `-d` argument .
+  - This argument allows users to run x-cupp with a default set of options, skipping the interactive question process.
+  - When using the `-d` argument, users are required to provide a name for the targeted individual or entity.
+- Increase config's numsto from 100 to 10000
+
 ## 3.2.0-alpha
 
  - ran 2to3 on cupp.py to make it Python3 compatible
