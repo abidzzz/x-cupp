@@ -87,13 +87,12 @@ This tool was originally designed and developed by [Mebus](https://github.com/Me
 
 - [quantumcore](https://github.com/quantumcore)
 
-## Important Note
+## Note
 
 X-cupp is capable of generating a comprehensive list of potential passwords based on personal information. However, it's essential to be aware that using x-cupp with default settings (i.e. `python3 xcupp.py -d name`) may result in the generation of a significant number of passwords.
 
 Depending on the complexity of the input data and the size of the wordlists generated, it's possible to end up with a large list of passwords. Therefore, exercise caution when using x-cupp and consider adjusting the settings or providing specific input parameters to control the output size, especially when dealing with large datasets.
 
-We recommend reviewing and filtering the generated wordlists to ensure they meet your specific requirements and usage scenarios. Additionally, consider the potential implications of using such extensive wordlists, especially in security testing and password auditing scenarios.
 
 ## Github import
 
